@@ -1,0 +1,75 @@
+h2 {
+  display: flex;
+  position: absolute;
+  top: 32px;
+  left: 35px;
+  font-size: 40px;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 1280px;
+  height: 309px;
+  left: 0px;
+  top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+
+  background: #202020;
+  border-radius: 12px;
+}
+
+input {
+  position: relative;
+  width: 562px;
+  height: 48px;
+  left: -35px;
+  top: 150px;
+  border: none;
+  border-radius: 12px;
+  padding-left: 12px;
+
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 60px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  align-items: center;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.nomeInput {
+  display: flex;
+  position: relative;
+  top: 120px;
+  left: 30px;
+}
+
+.corInput {
+  display: flex;
+  position: relative;
+  top: 120px;
+  left: 10px;
+}
+
+button {
+  /* Rectangle 3 */
+
+  position: absolute;
+  width: 231px;
+  height: 57px;
+  left: 1000px;
+  top: 210px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+
+  background: #36ce7c;
+  border-radius: 12px;
+}
